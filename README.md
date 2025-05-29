@@ -107,10 +107,10 @@ O que não será implementado:
 |<h1>6. <a name="_heading=h.1t3h5sf"></a>**Materiais e Métodos**</h1>|
 | - |
 
-1. **Modelagem do sistema**:  A modelagem foi realizada a partir da definição dos requisitos funcionais do jogo, estruturando as fases e interações com base em um fluxo educativo.
-1. **Tecnologias utilizadas**: O jogo está sendo desenvolvido na linguagem C utilizando a biblioteca Allegro, uma das principais bibliotecas gráficas para desenvolvimento de jogos 2D. O Allegro oferece suporte a gráficos, áudio, teclado e outros dispositivos de entrada, sendo ideal para a criação de jogos educativos como o Auto Escola Virtual.
+1. **Modelagem do sistema**:  ![aa drawio](https://github.com/user-attachments/assets/4443c906-5146-4a30-9496-40372c1d762d)
+2. **Tecnologias utilizadas**: O jogo está sendo desenvolvido na linguagem C utilizando a biblioteca Allegro, uma das principais bibliotecas gráficas para desenvolvimento de jogos 2D. O Allegro oferece suporte a gráficos, áudio, teclado e outros dispositivos de entrada, sendo ideal para a criação de jogos educativos como o Auto Escola Virtual.
 
-1. **Arquitetura do sistema**:  A arquitetura é baseada em módulos, com separação entre a lógica do jogo, controle de entrada, gerenciamento de gráficos e sistema de pontuação. Essa abordagem modular facilita a organização do código, a identificação de falhas e a escalabilidade do projeto, permitindo a adição de novos conteúdos e fases com facilidade.
+3. **Arquitetura do sistema**:  A arquitetura é baseada em módulos, com separação entre a lógica do jogo, controle de entrada, gerenciamento de gráficos e sistema de pontuação. Essa abordagem modular facilita a organização do código, a identificação de falhas e a escalabilidade do projeto, permitindo a adição de novos conteúdos e fases com facilidade.
 
 
 |<h1>7. <a name="_heading=h.4d34og8"></a>**Resultados**</h1>|
