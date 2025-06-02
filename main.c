@@ -9,7 +9,7 @@
 #define SCREEN_W 800
 #define SCREEN_H 600
 
-// Enums MenuOption e FaseOption permanecem os mesmos
+
 enum MenuOption {
     MENU_INICIAR,
     MENU_CREDITOS,
@@ -204,7 +204,7 @@ void exibir_creditos(ALLEGRO_DISPLAY *display, ALLEGRO_FONT *font, ALLEGRO_BITMA
     al_destroy_event_queue(queue);
 }
 
-// ---------- Seletor de Fase ---------- (copiado da sua versão anterior)
+//Selecionar Fase
 void selecionar_fase(ALLEGRO_DISPLAY *display, ALLEGRO_FONT *font, ALLEGRO_BITMAP *background_menu) { // Usa background do menu
     int fase_selecionada = 0;
     bool selecionando = true;
@@ -253,7 +253,6 @@ void selecionar_fase(ALLEGRO_DISPLAY *display, ALLEGRO_FONT *font, ALLEGRO_BITMA
     al_destroy_event_queue(queue);
 }
 
-// ---------- MAIN ---------- (copiado da sua versão anterior)
 int main() {
     if(!al_init()) {
         fprintf(stderr, "Falha ao inicializar Allegro.\n");
@@ -360,11 +359,5 @@ int main() {
     al_destroy_bitmap(background_menu);
     al_destroy_display(display);
     
-    // Opcional: desinicializar addons explicitamente
-    // al_shutdown_primitives_addon();
-    // al_shutdown_image_addon();
-    // al_shutdown_font_addon();
-    // al_uninstall_keyboard();
-
     return 0;
 }
